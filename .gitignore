@@ -1,0 +1,10 @@
+## Ignore everything in this directory
+*
+
+# Except for this .gitignore file
+!.gitignore
+
+# And the nvim and zathura directories
+!nvim/
+!zathura/
+!helper/
