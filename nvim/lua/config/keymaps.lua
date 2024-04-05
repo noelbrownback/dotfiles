@@ -34,3 +34,7 @@ util.map("n", "<M-l>", "1<C-w>>")
 -- 	Better tabbing
 util.map("n", "<TAB>", "gt", { desc = "Next Buffer" })
 util.map("n", "<S-TAB>", "gT", { desc = "Previous Buffer" })
+
+-- Saving
+util.map("n", "<C-s>", ":update<CR>", {desc = "Save"})
+

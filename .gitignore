@@ -1,10 +1,17 @@
-## Ignore everything in this directory
 *
+!*/
 
-# Except for this .gitignore file
+#Whitelist 
 !.gitignore
+!.gitmodules
+!scripts/**/*
+!bookmarks.md
+# !zsh/**/*.zsh
+!nvim/**/*
+!zathura/**/*
+!wezterm/**/*
+# !wallpaper/**/*
+!starship.toml
+# !task/**/*
+# !timewarrior/**/*
 
-# And the nvim and zathura directories
-!nvim/
-!zathura/
-!helper/

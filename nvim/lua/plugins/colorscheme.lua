@@ -2,17 +2,11 @@ return {
 	{
 		"folke/tokyonight.nvim",
 		lazy = false,
-		opts = { style = "night" }
+		opts = { style = "storm" }
 	},
 	{
 		"Mofiqul/dracula.nvim",
 	},
-	{
-		"folke/tokyonight.nvim",
-		lazy = false,
-		opts = { style = "night" }
-	},
-
 	{
 		"maxmx03/solarized.nvim",
 		config = function()

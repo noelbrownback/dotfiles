@@ -6,5 +6,5 @@ require("config.lazy")
 require("config.autocmds")
 require("config.keymaps")
 
-vim.cmd("colorscheme dracula")
+vim.cmd("colorscheme tokyonight")
 

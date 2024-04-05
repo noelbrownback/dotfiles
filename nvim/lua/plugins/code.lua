@@ -56,9 +56,4 @@ return {
 	},
 	-- }}}
 
-	-- surround {{{
-	{
-		"vim-surround/surround.nvim"
-	},
-	-- }}}
 }
