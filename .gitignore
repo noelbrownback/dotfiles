@@ -6,7 +6,7 @@
 !.gitmodules
 !scripts/**/*
 !bookmarks.md
-# !zsh/**/*.zsh
+!zsh/**/*
 !nvim/**/*
 !zathura/**/*
 !wezterm/**/*
