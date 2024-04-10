@@ -47,7 +47,6 @@ return {
 				"regex",
 				"vim",
 				"yaml",
-				"vimdoc",
 			},
 			-- incremental_selection = {
 			-- 	enable = true,
@@ -61,7 +60,8 @@ return {
 		},
 		config = function(_, opts)
 			require("nvim-treesitter.configs").setup(opts)
-			require("nvim-treesitter.install").prefer_git = true
+			require("nvim-treesitter.install").prefer_git = true,
+			require("nvim-treesitter.install").update({ with_sync = true })()
 		end,
 	},
 	-- }}}

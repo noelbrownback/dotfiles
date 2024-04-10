@@ -15,4 +15,6 @@ source "$ZDOTDIR/completion.zsh"
 source "$ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
 source "$ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
+plugins=(git nvm)
+
 eval "$(starship init zsh)"

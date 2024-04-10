@@ -42,4 +42,12 @@ return {
 		},
 	},
 	-- }}}
+	-- Persistence {{{
+	{
+		"folke/persistence.nvim",
+		event = "BufReadPre",
+		opts = {
+		},
+	},
+	-- }}}
 }
