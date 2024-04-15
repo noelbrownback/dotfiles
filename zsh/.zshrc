@@ -1,6 +1,6 @@
 # Lines configured by zsh-newuser-install
 export ZDOTDIR=$HOME/.config/zsh
-
+source "$ZDOTDIR/path.zsh"
 # HISTFILE=~/.zsh_history
 setopt appendhistory
 

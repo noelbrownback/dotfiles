@@ -13,3 +13,6 @@ alias gs='git status'
 alias gc='git commit'
 alias gcm='git commit -m'
 
+
+# scripts
+alias btwh='source ~/.config/headphone_conn.sh'

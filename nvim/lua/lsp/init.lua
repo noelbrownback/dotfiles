@@ -1,5 +1,5 @@
 local util = require("util")
-local lspconfig = require('lspconfig')
+-- local lspconfig = require('lspconfig')
 
 -- Completion setup
 require('lsp.cmp')
@@ -8,7 +8,9 @@ require('lsp.cmp')
 -- Specific server settings can be loaded (required) from their own file or 
 -- simply added below.
 require('lsp.lua_ls')
-lspconfig.pyright.setup{}
+require('lsp.python')
+
+-- lspconfig.pyright.setup{}
 
 local opts = {
 	diagnostics = {

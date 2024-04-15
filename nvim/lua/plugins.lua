@@ -1,8 +1,7 @@
-
 return {
 
 	-- utils
-	{ "nvim-lua/plenary.nvim",      lazy = true },
+	{ "nvim-lua/plenary.nvim",        lazy = true },
 	{ "nvim-tree/nvim-web-devicons" },
 
 	-- core
@@ -47,5 +46,8 @@ return {
 			"hrsh7th/nvim-cmp",
 			"L3MON4D3/LuaSnip"
 		},
+	},
+	{
+	  "jose-elias-alvarez/null-ls.nvim", requires = { "nvim-lua/plenary.nvim" },
 	},
 }
