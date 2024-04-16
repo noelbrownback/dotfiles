@@ -1,5 +1,18 @@
 local cmp = require('cmp')
 
+local luasnip = require("luasnip")
+-- require("luasnip.loaders.from_vscode").lazy_load()
+--
+-- -- ls.filetype_extend("python", { "pydoc" })
+-- -- ls.filetype_extend("python", { "base" })
+-- ls.config.filetype_extend("python", { "pydoc" })
+-- ls.config.filetype_extend("python", { "base" })
+--
+require("luasnip.loaders.from_vscode").lazy_load()-- will exclude all javascript snippets
+-- require("luasnip.loaders.from_vscode").load {
+--     exclude = { "javascript" },
+-- }
+
 cmp.setup({
 	snippet = {
 		-- REQUIRED - you must specify a snippet engine
