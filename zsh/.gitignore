@@ -1,5 +1,6 @@
 plugins/
 
+.zcompdump
 
 !alias.zsh
 !.zshrc
