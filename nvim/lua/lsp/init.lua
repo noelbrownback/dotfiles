@@ -1,5 +1,6 @@
 local util = require("util")
--- local lspconfig = require('lspconfig')
+
+require("lsp.snips")
 
 -- Completion setup
 require('lsp.cmp')
