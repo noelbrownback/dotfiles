@@ -17,4 +17,6 @@ source "$ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 plugins=(git nvm)
 
+eval "$(fzf --zsh)"
+eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
