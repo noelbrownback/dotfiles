@@ -29,7 +29,7 @@ dashboard.setup({
 					  key = 's',
 				  },
 			  },
-			  footer = {'I love deadlines. I love the whooshing noise they make as they go by.'}
+			  footer = {'The dumbest people I know are those who know it all.'}
 		  },
 	  }
 	)
